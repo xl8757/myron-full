@@ -39,10 +39,10 @@ CONFIG_XNU_SHENG_PMGR=y
 # reference: CONFIG_XNU_OWNER_DATA_MOUNT=y  # disabled for the reference pass
 # reference: CONFIG_XNU_OWNER_UNION_SYSTEMOS=y  # disabled for the reference pass
 CONFIG_XNU_NATIVE_VIRTIO_BLOCK_ARCHIVE="{tree}/build/native-virtio-block-verified-bundle/libNativeVirtioBlock.a"
-CONFIG_XNU_VERIFIED_ROOT_ARCHIVE="{tree}/build/verified-root-os-xnu-bundle/libVerifiedRootProbe.a"
+# reference: CONFIG_XNU_VERIFIED_ROOT_ARCHIVE="{tree}/build/verified-root-os-xnu-bundle/libVerifiedRootProbe.a"  # disabled for the reference pass
 CONFIG_XNU_EXTRA_LD_ARCHIVES=""
 # Volume UUID of this board's Data seed (scripts/prepare-owner-data-fixture.py, build/owner-data-fixture/seed.json).
-CONFIG_XNU_OWNER_DATA_VOLUME_UUID="DA0A68B3-8950-4E0C-9527-8AC5C426F5A9"
+# reference: CONFIG_XNU_OWNER_DATA_VOLUME_UUID="DA0A68B3-8950-4E0C-9527-8AC5C426F5A9"  # disabled for the reference pass
 
 # The on-screen diagnostic page of sheng (boot-progress=2): kernel console, stages, processes, storage and memory, drawn
 # into the framebuffer; also defines boot_progress_poll for NativeUfs (scripts/build-boot-progress.py, kits/myron).
